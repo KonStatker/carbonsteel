@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Steel</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#64B5F6">
+    <meta name="msapplication-TileColor" content="#64B5F6">
+    <meta name="theme-color" content="#121212">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="lottie-player.js"></script>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="particles" id="particles"></div>
+    <div class="container">
+        <header>
+            <div id="greeting" class="greeting">
+                <p class="greeting-text">
+                    <span class="greeting-part-1">Рад тебя видеть</span>
+                    <span class="greeting-part-2">Пусть растёт всё, что задумано!</span>
+                    <div class="plant-animation-container">
+                        <lottie-player class="plant-animation" src="images/plant.json" background="transparent" speed="1" style="width: 120px; height: 120px;" autoplay loop></lottie-player>
+                    </div>
+                </p>
+            </div>
+            <h1>Как подключиться</h1>
+        </header>
+        <main>
+            <div class="intro-text" id="intro-section">
+                <p>Используйте Вашу подписку в одном из приложений<br>
+                    А так же, для лучшей работы нужно правильно настроить маршрутизацию и конфигурацию<br>
+                </p>
+            </div>
+            <div class="downloads-section" id="downloads-section">
+                <h2>Лучшие приложения</h2>
+                <div class="platform-grid">
+                    <div class="platform-card">
+                        <div class="platform-icon android-icon" aria-hidden="true">
+                            <img src="images/android-icon.png" alt="Android" width="48" height="48">
+                        </div>
+                        <h3>Android</h3>
+                        <a href="https://github.com/2dust/v2rayNG/releases/latest" class="download-btn" aria-label="Скачать v2rayNG для Android"><img src="images/send-plane-line.svg" alt="v2rayNG" class="app-icon" />v2rayNG</a>
+                        <a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest" class="download-btn" aria-label="Скачать NekoBox для Android"><img src="images/neko-icon.svg" alt="NekoBox" class="app-icon" />NekoBox</a>
+                        <a href="https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_universal.apk" class="download-btn" aria-label="Скачать v2RayTun для Android"><img src="images/roadster-line.svg" alt="v2RayTun" class="app-icon" />v2RayTun</a>
+                        <a href="https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box" class="download-btn" aria-label="Скачать V2Box для Android"><img src="images/434x0w.svg" alt="V2Box" class="app-icon" />V2Box</a>
+                        <a href="https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-Android-universal.apk" class="download-btn" aria-label="Скачать Hoddify для Android"><img src="images/hiddify-icon.svg" alt="Hiddify" class="app-icon" />Hiddify</a>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon apple-icon" aria-hidden="true">
+                            <img src="images/apple-icon.png" alt="Apple" width="48" height="48">
+                        </div>
+                        <h3>iOS/MacOS</h3>
+                        <a href="https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690" class="download-btn" aria-label="Скачать V2Box для iOS/MacOS"><img src="images/434x0w.svg" alt="V2Box" class="app-icon" />V2Box</a>
+                        <a href="https://github.com/hiddify/hiddify-app/releases/latest" class="download-btn" aria-label="Скачать Hiddify для iOS/MacOS"><img src="images/hiddify-icon.svg" alt="Hiddify" class="app-icon" />Hiddify</a>
+                        <a href="https://apps.apple.com/ru/app/shadowrocket/id932747118" class="download-btn" aria-label="Скачать Shadowrocket для iOS/MacOS"><img src="images/shadowrocket-icon.svg" alt="Shadowrocket" class="app-icon" />Shadowrocket</a>
+                        <a href="https://github.com/2dust/v2rayN/releases/latest" class="download-btn" aria-label="Скачать v2rayN для MacOS"><img src="images/send-plane-line.svg" alt="v2rayN" class="app-icon" />v2rayN</a>
+                        <a href="https://github.com/yanue/V2rayU/releases/latest" class="download-btn" aria-label="Скачать v2RayU для MacOS"><img src="images/v2rayu-icon2.svg" alt="v2RayU" class="app-icon" />V2rayU</a>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon windows-icon" aria-hidden="true">
+                            <img src="images/windows-icon.png" alt="Windows" width="48" height="48">
+                        </div>
+                        <h3>Windows</h3>
+                        <a href="https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64-desktop.zip" class="download-btn" aria-label="Скачать v2rayN для Windows"><img src="images/send-plane-line.svg" alt="v2rayN" class="app-icon" />v2rayN</a>
+                        <a href="https://github.com/MatsuriDayo/nekoray/releases/latest" class="download-btn" aria-label="Скачать NekoBox для Windows"><img src="images/neko-icon.svg" alt="NekoBox" class="app-icon" />Nekoray</a>
+                        <a href="https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-Windows-Setup-x64.Msix" class="download-btn" aria-label="Скачать Hiddify для Windows"><img src="images/hiddify-icon.svg" alt="Hiddify" class="app-icon" />Hiddify</a>
+                        <a href="https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases/latest/download/InvisibleManXRay-x64.zip" class="download-btn" aria-label="Скачать InvisibleMan для Windows"><img src="images/eye-off-line.svg" alt="InvisibleMan" class="app-icon" />InvisibleMan</a>
+                        <a href="https://github.com/LorenEteval/Furious/releases/latest" class="download-btn" aria-label="Скачать Furious для Windows/MacOS"><img src="images/rocket-line.svg" alt="Furious" class="app-icon" />Furious</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instructions-section" id="instructions-section">
+                <h2>Простые инструкции</h2>
+                <div class="platform-selector">
+                    <button class="platform-tab active" data-platform="android" aria-label="Android">
+                        <div class="platform-icon android-icon" aria-hidden="true">
+                            <img src="images/android-icon.png" alt="Android" width="36" height="36">
+                        </div>
+                    </button>
+                    <button class="platform-tab" data-platform="windows" aria-label="Windows">
+                        <div class="platform-icon windows-icon" aria-hidden="true">
+                            <img src="images/windows-icon.png" alt="Windows" width="36" height="36">
+                        </div>
+                    </button>
+                    <button class="platform-tab" data-platform="ios" aria-label="iOS">
+                        <div class="platform-icon ios-icon" aria-hidden="true">
+                            <img src="images/ios-icon.png" alt="iOS" width="36" height="36">
+                        </div>
+                    </button>
+                    <button class="platform-tab" data-platform="macos" aria-label="macOS">
+                        <div class="platform-icon macos-icon" aria-hidden="true">
+                            <img src="images/macos-icon.png" alt="macOS" width="36" height="36">
+                        </div>
+                    </button>
+                    <button class="platform-tab" data-platform="universal" aria-label="universal">
+                        <div class="platform-icon macos-icon" aria-hidden="true">
+                            <img src="images/universal-icon.png" alt="universal" width="36" height="36">
+                        </div>
+                    </button>
+                </div>
+                <div class="instructions-container">
+                    <div class="instruction-block android-instructions">
+                        <!-- Инструкция для v2rayNG -->
+                        <div class="app-instruction" data-app-id="v2rayng" style="display: none;">
+                            <div class="instruction-content">
+                                <div class="instruction-steps">
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h2>Настройка для Android - v2rayNG</h2>
+                                            <h3><a href="https://github.com/2dust/v2rayNG/releases/latest" target="_blank" class="plain-link">Скачать и установить <b>v2rayNG-arm64-v8a.apk</b></a></h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Использовать свою подписку</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Значок с плюсиком</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Импорт из буфера обмена <i>или</i> Импорт из QR-кода</span>
+                                            </div>
+                                            <p class="info-accent">
+                                                Добавятся сервера в группу с названием "<b>import sub</b>".
+                                            </p>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2ray1.png" alt="Импорт ключа" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Добавить приложения для которых нужен VPN</b></h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Меню</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Выбор приложений</span>
+                                                <span class="step">Включить <b>Использовать выбор</b></span>
+                                                <span class="step">Выбрать нужные приложения</span>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2ray2.png" alt="Импорт ключа" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Добавить маршрутизацию</h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Меню</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Маршрутизация</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Значок с тремя точками</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Импорт правил из буфера обмена</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Подтвердить</span>
+                                            </div>
+                                            <div style="display: flex; justify-content: center; margin: 20px 0;">
+                                                <button class="copy-routing-btn" data-routing-file="routes/RouteV2rayNG" aria-label="Скопировать настройки маршрутизации в буфер обмена">
+                                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                                                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                                    </svg>
+                                                    Скопировать настройки
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2ray3.png" alt="Импорт конфигурации" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Обновить геофайлы</h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Меню</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Файлы ресурсов</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Источник геофайлов</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">runetfreedom/russia-v2ray-rules-dat</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Нажать на облако</span>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2ray4.png" alt="Импорт конфигурации" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>В <b>Профиле</b> выбрать один из серверов и нажать на <b>подключение</b></h3>
+                                            <p class="info-accent">
+                                                В приоритете выбор сервера сверху вниз.<br>
+                                                Не работает или плохое соединение - переключаетесь на следующий.<br>
+                                                Текущие маршруты работают в режиме - всё кроме РФ, VPN можно держать всегда включенным.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Инструкция для NekoBox -->
+                        <div class="app-instruction" data-app-id="nekobox" style="display: none;">
+                        <div class="instruction-content">
+                            <div class="instruction-steps">
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                            <h2>Настройка для Android - NekoBox</h2>
+                                            <h3><a href="https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest" target="_blank" class="plain-link">Скачать и установить <b>NekoBox-arm64-v8a.apk</b></a></h3>
+                                        <div class="steps-chain">
+                                                <span class="step">Использовать свою подписку</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Файл с плюсиком</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Импорт из буфера обмена <i>или</i> Отсканировать QR-код</span>
+                                        </div>
+                                            <p class="info-accent">
+                                                Добавятся сервера в группу с названием "<b>Subscription #...</b>".<br>
+                                            </p>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/import-key1.png" alt="Импорт ключа" class="zoomable-image" loading="lazy">
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                            <h3>Скачать и импортировать <b>готовые настройки</b></h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Меню</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Инструменты</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Бэкап</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Импортировать из файла</span>
+                                                <span class="step">Выбрать скачанный файл <b>RouteNekobox</b></span>
+                                        </div>
+                                        <div style="display: flex; justify-content: center; margin: 20px 0;">
+                                                <a href="routes/RouteNekobox.json" class="download-btn" download aria-label="Скачать настройки маршрутизации для Nekobox">Скачать настройки</a>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images">
+                                        <div class="image-placeholder">
+                                            <img src="images/import-key.png" alt="Импорт ключа" class="zoomable-image" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h3>Обновить геофайлы</h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Меню</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Маршруты</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Значок с тремя точками</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Управление ресурсами маршрутов</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Обновить все файлы</span>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images">
+                                        <div class="image-placeholder">
+                                            <img src="images/nekobox1.png" alt="Обновление геофайлов" class="zoomable-image" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                            <h3>Добавить приложения для которых нужен VPN</h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Меню</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Настройки</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Режим VPN для приложений</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Включить нужные приложения</span>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images">
+                                        <div class="image-placeholder">
+                                            <img src="images/import-config.png" alt="Импорт конфигурации" class="zoomable-image" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                            <h3>В <b>Конфигурации</b> выбрать один из серверов и нажать на <b>самолётик</b>.</h3>
+                                        <p class="info-accent">
+                                                В приоритете выбор сервера сверху вниз.<br>
+                                                Не работает или плохое соединение - переключаетесь на следующий.<br>
+                                                Текущие маршруты работают в режиме - всё кроме РФ, VPN можно держать всегда включенным.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="instruction-block windows-instructions" style="display: none;">
+                        <!-- Инструкция для v2rayN -->
+                        <div class="app-instruction" data-app-id="v2rayn" style="display: none;">
+                            <div class="instruction-content">
+                                <div class="instruction-steps">
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h2>Настройка для Windows - v2rayN</h2>
+                                            <h3><a href="https://github.com/2dust/v2rayN/releases/latest/download/v2rayN-windows-64-desktop.zip" target="_blank" class="plain-link">Скачать и распаковать v2rayN</a></h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Запустить от имени администратора</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Обновить геофайлы</span>
+                                                <svg class="colon-icon" viewBox="0 0 20 20">
+                                                <circle cx="10" cy="6" r="1.5"/>
+                                                <circle cx="10" cy="14" r="1.5"/>
+                                                </svg>
+                                                <span class="step">Settings</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Regional presets settings</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Russia</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Ожидать конца загрузки</span>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2rayn1.png" alt="" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Скачать и импортировать готовые настройки</h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Settings</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Backup and Restore</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Restore from local</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Выбрать файл RouteV2rayN</span>
+                                            </div>
+                                            <div style="display: flex; justify-content: center; margin: 20px 0;">
+                                                    <a href="routes/RouteV2rayN" class="download-btn" download aria-label="Скачать настройки для v2rayN">Скачать настройки</a>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2rayn2.png" alt="Импорт ключа в Windows" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Использовать свою подписку</h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Серверы</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Импорт массива <i>или</i> Сканировать QR-код</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Группа подписки</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Обновить подписку без прокси</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Появятся сервера</span>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2rayn3.png" alt="" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Выбрать один из режимов и запустить VPN</h3>
+                                            <p class="info-accent">
+                                                <i>Всё</i> - весь трафик будет идти через VPN.<br>
+                                                <i>Всё, кроме РФ</i> - Подключение к русским серверам будет напрямую.<br>
+                                                <i>Заблокированное</i> - VPN будет использован только к заблокированным ресурсам.<br><br>
+                                                В приоритете выбор сервера сверху вниз.<br>
+                                                Не работает или плохое соединение - переключаетесь на следующий.
+                                            </p>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/v2rayn4.png" alt="" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Инструкция для Nekoray -->
+                        <div class="app-instruction" data-app-id="nekoray" style="display: none;">
+                            <div class="instruction-content">
+                                <div class="instruction-steps">
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                                <h2>Настройка для Windows - Nekoray</h2>
+                                                <h3><i>Если у Вас готовый архив - перейти сразу в конец инструкции ↓↓</i></h3>
+                                                <h3><a href="https://github.com/MatsuriDayo/nekoray/releases/latest" target="_blank" class="plain-link">Скачать и установить NekoBox (Nekoray) для Windows</a></h3>
+                                            <div class="steps-chain">
+                                                    <span class="step">Скопировать свой ключ</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                    <span class="step">Добавить сервер <b>Мессенджер-МАХ</b></span>
+                                                <svg class="colon-icon" viewBox="0 0 20 20">
+                                                    <circle cx="10" cy="6" r="1.5"/>
+                                                    <circle cx="10" cy="14" r="1.5"/>
+                                                </svg>
+                                                <span class="step">Сервер</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Добавить профиль из буфера обмена</span>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/step1-windows.png" alt="Импорт ключа в Windows" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Скачать файл и поместить в папку с конфигами</h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Настройки</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Открыть папку с конфигами</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                    <span class="step">В папку <b>routes_box</b> поместить скачанный файл <b>RouteNekoray</b></span>
+                                            </div>
+                                            <div style="display: flex; justify-content: center; margin: 20px 0;">
+                                                    <a href="routes/RouteNekoray" class="download-btn" download aria-label="Скачать настройки маршрутизации для Windows">Скачать настройки</a>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images">
+                                            <div class="image-placeholder">
+                                                <img src="images/import-key-windows.png" alt="Импорт ключа в Windows" class="zoomable-image" loading="lazy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-step">
+                                        <div class="instruction-step-content">
+                                            <h3>Импортировать настройки в Nekoray</h3>
+                                            <div class="steps-chain">
+                                                <span class="step">Настройки</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Настройки маршрутов</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Общие</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">Изменить набор маршрутов</span>
+                                                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                                <span class="step">RouteNekoray</span>
+                                            </div>
+                                            <div class="steps-chain">
+                                                <span class="step">Загрузить</span>
+                                            </div>
+                                        </div>
+                                        <div class="instruction-images" style="display: flex; flex-direction: row; justify-content: space-between; gap: 10px; max-width: 100%;">
+                                            <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                                <img src="images/import-config-windows-1.png" alt="Импорт конфигурации в Windows (шаг 1)" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                            </div>
+                                            <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                                <img src="images/import-config-windows-2.png" alt="Импорт конфигурации в Windows (шаг 2)" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="instruction-block ios-instructions" style="display: none;">
+                        <div class="instruction-content">
+                            <div class="instruction-steps">
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h2>Настройка для iOS</h2>
+                                        <h3>Инструкция в разработке</h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Инструкция по настройке VPN для iOS находится в разработке.</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Используйте универсальную инструкцию.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="instruction-block macos-instructions" style="display: none;">
+                        <div class="instruction-content">
+                            <div class="instruction-steps">
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h2>Настройка для MacOS</h2>
+                                        <h3>1. <a href="https://github.com/2dust/v2rayN/releases/latest" target="_blank" class="plain-link">Скачать и установить v2rayN для MacOS</a></h3>
+                                        <div class="steps-chain">
+                                            <span class="step">v2rayN-macos-64.dmg</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">если процессор <b>Intel Mac</b></span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">v2rayN-macos-arm64.dmg</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">если процессор <b>Apple Silicon</b></span>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images">
+                                        <div class="image-placeholder">
+                                            <img src="images/download-v2rayn-macos.png" alt="Скачивание v2rayN для MacOS" class="zoomable-image" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h3>2. Добавить сервер Мессенджер-МАХ и настроить маршрутизацию</h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Скопировать свой <b>ключ</b></span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Добавить сервер <b>Мессенджер-МАХ</b></span>
+                                            <svg class="colon-icon" viewBox="0 0 20 20">
+                                                <circle cx="10" cy="6" r="1.5"/>
+                                                <circle cx="10" cy="14" r="1.5"/>
+                                            </svg>
+                                            <span class="step">Configurations</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Import Share Links</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Settings</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Regional presets setting</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Russia</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Начнётся скачивание настроек</span>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images" style="display: flex; flex-direction: row; justify-content: space-between; gap: 10px; max-width: 100%;">
+                                        <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                            <img src="images/import-v2rayn-macos-1.png" alt="Импорт ключа" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                        </div>
+                                        <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                            <img src="images/import-v2rayn-macos-2.png" alt="Импорт настроек" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h3>3. Включить русский язык и перезапустить</h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Сверху справа <b>Три точки</b></span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Language</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">ru</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Когда скачивание закончится, перезапустить</span>
+                                        </div>
+                                        <p class="info-accent">
+                                            Чтобы полностью выйти из программы, нужно в трее найти значок <b>v2rayN</b>, нажать ПКМ и выбрать <b>Exit</b>.
+                                        </p>
+                                    </div>
+                                    <div class="instruction-images" style="display: flex; flex-direction: row; justify-content: space-between; gap: 10px; max-width: 100%;">
+                                        <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                            <img src="images/x2rayn-ru.png" alt="Выбор языка" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                        </div>
+                                        <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                            <img src="images/x2rayn-exit.png" alt="Выключение x2rayN" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h3>4. Можно запустить клиент</h3>
+                                        <div class="steps-chain">
+                                            <span class="step">Снизу выбрать пресет</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step"><b>RUv1-Заблокированное</b> или <b>RUv1-Всё, кроме РФ</b></span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Рядом нажать</span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step"><b>Установить системный прокси</b></span>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images" style="display: flex; flex-direction: row; justify-content: space-between; gap: 10px; max-width: 100%;">
+                                        <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                            <img src="images/x2rayn-preset.png" alt="Выбор языка" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                        </div>
+                                        <div class="image-placeholder" style="flex: 1; max-width: 48%;">
+                                            <img src="images/x2rayn-start.png" alt="Выключение x2rayN" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h3>Проверка работы</h3>
+                                        <p class="info-accent">
+                                            Если не работает, запустите программу от имени администратора.
+                                            В v2rayN уже добавлена поддержка российских источников.
+                                            Заблокированные сайты автоматически добавляются из серверов.
+                                            Скачивание из всех источников происходит через прокси, так что можно не беспокоиться о будущих блокировках.
+                                            Настроенный VPN можно держать всегда включённым.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="instruction-block universal-instructions" style="display: none;">
+                        <div class="instruction-content">
+                            <div class="instruction-steps">
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h2>Настройка для Всех ОС</h2>
+                                        <h3>Универсальная инструкция с автонастройкой</h3>
+                                        <div class="steps-chain">
+                                            <span class="step"><a href="https://github.com/hiddify/hiddify-app/releases/latest" target="_blank" class="plain-link">Скачать и установить <b>Hiddify</b></a> для своего устройства</span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Открыв приложение, выбрать регион <b>Россия (ru)</b></span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Скопировать свой <b>ключ</b></span>
+                                        </div>
+                                        <div class="steps-chain">
+                                            <span class="step">Добавить сервер <b>Мессенджер-МАХ</b></span>
+                                            <svg class="colon-icon" viewBox="0 0 20 20">
+                                                <circle cx="10" cy="6" r="1.5"/>
+                                                <circle cx="10" cy="14" r="1.5"/>
+                                            </svg>
+                                            <span class="step">Сверху справа <b>Плюсик</b></span>
+                                            <svg class="arrow-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10H15" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/><path d="M11 6L15 10L11 14" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/></svg>
+                                            <span class="step">Добавить из буфера обмена</span>
+                                        </div>
+                                    </div>
+                                    <div class="instruction-images">
+                                        <div class="image-placeholder">
+                                            <img src="images/hiddify-add-server.png" alt="Импорт конфигурации" class="zoomable-image" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instruction-step">
+                                    <div class="instruction-step-content">
+                                        <h3>Настройка маршрутизации</h3>
+                                        <p class="info-accent">
+                                            Приложение Hiddify использует автоматическую маршрутизацию при выборе Региона и не позволяет настроить её.
+                                            Необходимые функции уже включены по умолчанию.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="faq-section" id="faq-section">
+                <h2>Помощь и советы</h2>
+                <div class="faq-container">
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Какие приложения лучше всего подходят для подключения?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-subcontainer">
+                                <div class="faq-subitem">
+                                    <div class="faq-subquestion"><h4>Android</h4><span class="faq-subtoggle">+</span></div>
+                                    <div class="faq-subanswer">
+                                        <ul>
+                                            <li>v2rayNG — лучший клиент на момент начала 2026г с постоянной поддержкой</li>
+                                            <li>NekoBox — отличный стабильный клиент: удобный интерфейс и очень гибкая настройка</li>
+                                            <li>V2Ray Client / Hiddify — альтернативы для тех, кому нужен упрощённый Import-подход</li>
+                                            <li>v2RayTun — тоже вариант, хотя чаще используется как кросс-платформенный проект</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="faq-subitem">
+                                    <div class="faq-subquestion"><h4>Windows</h4><span class="faq-subtoggle">+</span></div>
+                                    <div class="faq-subanswer">
+                                        <ul>
+                                            <li>v2rayN — лучший клиент на момент начала 2026г с постоянной поддержкой</li>
+                                            <li>Nekoray / NekoBox Desktop — отличный стабильный клиент: удобный интерфейс и очень гибкая настройка</li>
+                                            <li>Hiddify (Windows) — удобная универсальная сборка, часто обновляется</li>
+                                            <li>Furious / InvisibleMan — альтернативы с разным UX (Furious — современный интерфейс)</li>
+                                            <li>v2RayTun (Windows) — также вариант, часто используется как DNS/VLESS клиент</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="faq-subitem">
+                                    <div class="faq-subquestion"><h4>iOS / iPadOS</h4><span class="faq-subtoggle">+</span></div>
+                                    <div class="faq-subanswer">
+                                        <ul>
+                                            <li>V2Box — удобный клиент с поддержкой, подходит большинству пользователей</li>
+                                            <li>Shadowrocket — платный, но мощный клиент с гибкими настройками протоколов</li>
+                                            <li>FoXray / Streisand (разные проекты) — качественные клиенты на базе Xray</li>
+                                            <li>Hiddify — доступен и часто обновляется, но UX может быть нестандартным</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="faq-subitem">
+                                    <div class="faq-subquestion"><h4>macOS</h4><span class="faq-subtoggle">+</span></div>
+                                    <div class="faq-subanswer">
+                                        <ul>
+                                            <li>V2rayU — стабильный и простой клиент с поддержкой VLESS и Reality с китайским языком</li>
+                                            <li>v2rayN — c 2024г работает и на macOS, но имеет интерфейс Windows UI</li>
+                                            <li>ClashX — гибкий и мощный, можно использовать YAML-конфигурации</li>
+                                            <li>Stash — современное решение, доступно и для macOS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="faq-subitem">
+                                    <div class="faq-subquestion"><h4>Linux</h4><span class="faq-subtoggle">+</span></div>
+                                    <div class="faq-subanswer">
+                                        <ul>
+                                            <li>xray-core — запуск через терминал или systemd. Полный контроль и гибкость</li>
+                                            <li>NekoBox (Linux GUI) — для тех, кто хочет графический интерфейс</li>
+                                            <li>Clash CLI — требует YAML-конфигураций, подходит продвинутым</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Почему нужно отключать проксирование русского трафика?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Многие российские сервисы (банки, кинопоиск, яндекс.музыка) работают только с российских IP-адресов.<br><br>
+                                При проксировании всего трафика через VPN некоторые сервисы не просто перестанут работать, а будут грузить лишний трафик.<br><br>
+                                Это и лишняя нагрузка на сервер, и вероятность блокировки использования VPN со стороны РКН.<br><br>
+                                Поэтому рекомендуется настроить маршрутизацию так, чтобы российский трафик шел напрямую, а остальной - через VPN.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Зачем настраивать маршрутизацию?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Маршрутизация позволяет настроить тонкий фильтр трафика, который делает VPN умнее, быстрее и надёжнее.</p>
+                            <p>Пример:</p>
+                            <ul>
+                                <li>Слушаешь музыку в Яндекс.Музыке — трафик идёт напрямую</li>
+                                <li>Открываешь YouTube — трафик идёт через VPN</li>
+                                <li>Браузер → VPN. Торренты → напрямую. Аналитика → блокируется</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Что делать, если VPN не работает?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Если VPN не работает, попробовать следующее:</p>
+                            <ul>
+                                <li>Запустить программу от имени администратора</li>
+                                <li>Проверить полностью ли скопирован ключ</li>
+                                <li>Проверить настройки маршрутизации</li>
+                                <li>Отключить другие VPN приложения</li>
+                                <li>Проверить дату и время</li>
+                                <li>Перезагрузить устройство</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Можно ли использовать VPN на нескольких устройствах?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Да, один ключ VPN можно использовать на нескольких устройствах.<br><br>
+                                Но не получится использовать один ключ на нескольких устройствах одновременно.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Если в Windows интернет не работает когда VPN отключён</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Иногда включённый системный прокси мешает доступу в интернет. <br><br>
+                                Для исправления нужно отключить прокси для локальных подключений.<br>
+                                <ul>
+                                    <li>Нажать <b>Win + R</b> и ввести:</li>
+                                </ul><br>
+                                <p class="info-accent">ms-settings:network-proxy</p>
+                                <ul>
+                                    <li>Нажать <b>Enter</b></li>
+                                </ul><br>
+                                Откроется окно <b>Параметры → Сеть и Интернет → Прокси</b><br><br>
+                                <ul>
+                                    <li>Включить галочку <b>Автоматическое применение параметров</b></li>
+                                    <li>Убрать галочку <b>Использовать прокси-сервер</b></li>
+                                    <li>Нажать <b>Сохранить</b></li>
+                                </ul>
+                            </p>
+                            <div class="image-placeholder">
+                                <img src="images/check-ip-windows-1.png" alt="Отключение прокси (шаг 1)" class="zoomable-image" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Почему используется протокол Vless и что такое XRay?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>"Мессенджер-МАХ" — это современный VPN, который помогает скрыть сам факт использования VPN.<br>
+                                Он делает так, что провайдеру кажется, будто вы просто открыли обычный сайт (например google.com, yandex.ru, telegram.org).</p>
+                            <p>VLESS — это протокол подключения, который поддерживает такую маскировку и высокую скорость.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Насколько безопасно использовать VPN?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Ваш трафик шифруется, никто (включая провайдера) не увидит, что вы делаете в интернете.<br><br>
+                                Но будьте внимательны: VPN — это не анонимность, а конфиденциальность.</p>
+                        </div>
+                    </div>
+
+<!--                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Какая цена VPN сервера ?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>В данный момент 3$ в месяц <span id="usdRubRate" style="font-size:0.98em; color:#90CAF9;"></span><br><small style="color:#888;">Курс обновляется автоматически</small></p>
+                        </div>
+                    </div>
+-->
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Модальное окно для банковской карты -->
+    <div class="modal-overlay" id="modalCard">
+        <div class="modal-content-iframe" style="max-width: 400px;">
+            <div class="modal-header-iframe">
+                <h3>Банковская карта</h3>
+                <button class="close-modal-iframe" aria-label="Закрыть окно" onclick="document.getElementById('modalCard').classList.remove('active')">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#64B5F6" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body-iframe" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <div style="font-size: 1.1em; color: #90CAF9; margin-bottom: 1em;">Рубли, Тинькофф</div>
+                <div style="font-size: 1.3em; font-weight: 600; letter-spacing: 2px; background: #222; padding: 12px 20px; border-radius: 10px; margin-bottom: 1em; color: #fff; user-select: all;" id="cardNumber">2200 7016 3572 6638</div>
+                <button onclick="navigator.clipboard.writeText('2200701635726638'); this.textContent='Скопировано!'; setTimeout(()=>this.textContent='Скопировать номер', 1500);" class="support-btn tinkoff-btn" style="margin-bottom: 1em;">Скопировать номер</button>
+                <div style="color: #aaa; font-size: 0.95em;">Спасибо за поддержку! 🙏</div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно для криптовалюты -->
+    <div class="modal-overlay" id="modalCrypto">
+        <div class="modal-content-iframe" style="max-width: 450px;">
+            <div class="modal-header-iframe">
+                <h3>Криптовалюта</h3>
+                <button class="close-modal-iframe" aria-label="Закрыть окно" onclick="document.getElementById('modalCrypto').classList.remove('active')">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#64B5F6" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body-iframe" style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 20px;">
+                <!-- Вкладки для выбора сети -->
+                <div class="crypto-tabs" id="cryptoTabs"></div>
+                <!-- Контент выбранной вкладки -->
+                <div class="crypto-content" id="cryptoContent" style="width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 20px;">
+                    <!-- Содержимое будет добавлено через JavaScript -->
+                </div>
+                <div style="color: #aaa; font-size: 0.95em; margin-top: 20px;">Спасибо за поддержку! 🙏</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Наверх">
+        <img src="images/arrow-up.png" alt="arrow-icon" width="26" height="26">
+    </button>
+
+    <!-- Боковое меню -->
+    <div class="side-nav">
+        <a href="#intro-section" class="nav-dot" title="Введение">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
+            </svg>
+        </a>
+        <a href="#downloads-section" class="nav-dot" title="Популярные приложения">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/>
+            </svg>
+        </a>
+        <a href="#instructions-section" class="nav-dot" title="Инструкции">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+        </a>
+        <a href="#faq-section" class="nav-dot" title="Помощь и советы">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 0v-6m0 0h6m-6 0H6"/>
+            </svg>
+        </a>
+    </div>
+
+    <script src="config.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="support-section">
+                <p>Если что-то оказалось полезным, можете отблагодарить.<br> Поддержка полностью добровольная.</p>
+                <div class="support-options">
+                    <div class="support-links">
+                        <button type="button" class="support-btn tinkoff-btn" id="cardSupportBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="6" width="20" height="12" rx="3"/>
+                                <path d="M2 10h20"/>
+                            </svg>
+                            Банковская карта
+                        </button>
+                        <button type="button" class="support-btn ton-btn" id="cryptoSupportBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 8v4l2 2"/>
+                            </svg>
+                            Криптовалюта
+                        </button>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <p style="margin-top:2rem; color: #ffffff; font-size: 1.05em;">Есть вопросы или нужна помощь? <a href="https://t.me/razumgolos" target="_blank" class="plain-link">Связаться через Telegram</a></p>
+                </div>
+            </div>
+<!-- 
+            <div class="footer-version" style="margin-top:2rem; color:#90CAF9; font-size:0.95em; text-align:center; opacity:0.8;">
+                2.2.12 • Обновлено 16.01.2026
+            </div>            
+
+            <svg class="colon-icon" viewBox="0 0 20 20"> двоеточие
+                <circle cx="10" cy="6" r="1.5"/>
+                <circle cx="10" cy="14" r="1.5"/>
+            </svg>
+-->
+        </div>
+    </footer>
+</body>
+</html>
+
