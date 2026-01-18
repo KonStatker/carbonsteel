@@ -1,8 +1,7 @@
 // Импорт конфигурации
 import { ANNOUNCEMENT } from './config.js';
 import { CRYPTO_WALLETS } from './config.js';
-import { ANDROID_INSTRUCTIONS } from './config.js';
-import { WINDOWS_INSTRUCTIONS } from './config.js';
+import { INSTRUCTIONS_BY_PLATFORM } from './config.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Верхняя панель-объявление
@@ -71,9 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const instructionBlock = document.querySelector(`.${platform}-instructions`);
             if (instructionBlock) {
                 instructionBlock.style.display = 'block';
-                if (platform === 'android' || platform === 'windows') {
-                    initAppSelector(platform);
-                }
+                initAppSelector(platform);
             }
         });
     });
@@ -113,7 +110,9 @@ function initAppSelector(platform) {
     const instructionBlock = document.querySelector(`.${platform}-instructions`);
     if (!instructionBlock) return;
     
-    const instructions = platform === 'android' ? ANDROID_INSTRUCTIONS : WINDOWS_INSTRUCTIONS;
+    const instructions = INSTRUCTIONS_BY_PLATFORM[platform];
+    if (!instructions) return;
+
     const enabledInstructions = instructions.filter(inst => inst.enabled);
     if (enabledInstructions.length === 0) return;
     
