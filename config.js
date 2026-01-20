@@ -29,7 +29,8 @@ export const CRYPTO_WALLETS = [
 // Android
 export const ANDROID_INSTRUCTIONS = [
     { id: 'v2rayng', name: 'v2rayNG', enabled: true },
-    { id: 'nekobox', name: 'NekoBox', enabled: true }
+    { id: 'nekobox', name: 'NekoBox', enabled: true },
+    { id: 'v2box', name: 'V2Box', enabled: true }
 ];
 
 // Windows
@@ -46,13 +47,13 @@ export const MACOS_INSTRUCTIONS = [
 
 // iOS
 export const IOS_INSTRUCTIONS = [
-    { id: 'shadowrocket', name: 'Shadowrocket', enabled: false },
+    { id: 'v2box', name: 'V2Box', enabled: true },
     { id: 'stash', name: 'Stash', enabled: false }
 ];
 
 // Универсальные (CLI / manual)
 export const UNIVERSAL_INSTRUCTIONS = [
-    { id: 'v2ray-core', name: 'V2Ray Core', enabled: false },
+    { id: 'hiddify', name: 'Hiddify', enabled: true },
     { id: 'sing-box', name: 'Sing-box', enabled: false }
 ];
 
