@@ -1,5 +1,5 @@
 {
-    "custom": "{\"rules\":[{\"geosite\":[\"category-ads-all\"],\"outbound\":\"block\"},{\"outbound\":\"direct\",\"protocol\":[\"bittorrent\"]},{\"domain_suffix\":[\".ru\",\".su\",\".by\"],\"geoip\":[\"private\",\"ru\",\"by\"],\"outbound\":\"direct\"}]}",
+    "custom": "{\"rules\":[{\"geosite\":[\"category-ads-all\"],\"outbound\":\"block\"},{\"outbound\":\"direct\",\"protocol\":[\"bittorrent\"]},{\"geoip\":[\"private\"],\"geosite\":[\"private\",\"category-ru\"],\"outbound\":\"direct\"}]}",
     "def_outbound": "proxy",
     "direct_dns": "https://cloudflare-dns.com/dns-query",
     "dns_final_out": "proxy",
