@@ -1,5 +1,5 @@
 {
-    "custom": "{\"rules\":[{\"geosite\":[\"category-ads-all\"],\"outbound\":\"block\"},{\"outbound\":\"direct\",\"protocol\":[\"bittorrent\"]},{\"geoip\":[\"private\"],\"geosite\":[\"private\",\"category-ru\"],\"outbound\":\"direct\"}]}",
+    "custom": "{\"rules\":[{\"geosite\":[\"category-ads-all\"],\"outbound\":\"block\"},{\"outbound\":\"direct\",\"protocol\":[\"bittorrent\"]},{\"geoip\":[\"private\"],\"outbound\":\"direct\"},{\"domain_suffix\":[\".ru\",\".su\",\".рф\"],\"outbound\":\"direct\"},{\"domain_suffix\":[\"vk.com\",\"vkuser.net\",\"vk-cdn.net\",\"vkuservideo.net\",\"userapi.com\",\"yandex.net\",\"yastatic.net\",\"yandex.com\",\"apple.com\",\"icloud.com\",\"mzstatic.com\",\"apple-dns.net\",\"google.com\",\"gstatic.com\",\"googleapis.com\",\"cloudflare.com\",\"cloudflare.net\",\"akamai.net\",\"akamaized.net\",\"fastly.net\",\"sberbank.com\",\"telegram.org\",\"web.telegram.org\"],\"outbound\":\"direct\"}]}",
     "def_outbound": "proxy",
     "direct_dns": "https://cloudflare-dns.com/dns-query",
     "dns_final_out": "proxy",
